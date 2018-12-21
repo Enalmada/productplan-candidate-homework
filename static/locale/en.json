@@ -1,0 +1,22 @@
+{
+  "meta.title": "Candidate Roadmap | ProductPlan",
+  "header.roadmap": "Candidate Roadmap",
+  "header.ProductRoadmap": "Product roadmap",
+  "nav.roadmap": "Roadmap",
+  "nav.planningBoard": "Planning board",
+  "nav.parkingLot": "Parking lot",
+  "logo": "ProductPlan Logo",
+  "addbutton.AddLane": "Add lane",
+  "addbutton.AddLane.popup.header": "We'll start with a lane",
+  "addbutton.AddLane.popup.body1": "Lanes represent high level categories, such as teams, product lines, or strategic initiatives. Add a color and description to your lane to communicate valuable details to stakeholders.",
+  "addbutton.AddLane.popup.body2": "Drag and drop a lane to get started",
+  "addbutton.AddBar": "Add bar",
+  "addbutton.AddBar.popup.header": "Awesome! Now let's add a few bars.",
+  "addbutton.AddBar.popup.body1": "Bars are your specific initiative.  Use them to represent your epics, projects, or tasks, and provide an at a glance view of priority, relationships and progress.",
+  "addbutton.AddBar.popup.body2": "Drag and drop a bar to get started",
+  "addbutton.AddBar.popup2.header": "Alright lets setup a couple more",
+  "addbutton.AddBar.popup2.body1": "Once they are added, you can share out your roadmap with your team.",
+  "GotIt": "Got it",
+  "lanes.DropHere": "Drop here",
+  "lanes.Lane": "Lane"
+}

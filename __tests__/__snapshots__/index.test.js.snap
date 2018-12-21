@@ -1,0 +1,447 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`With Snapshot Testing Index matches expected snapshot 1`] = `
+<div
+  className="ant-layout"
+>
+  <div
+    className="ant-layout-header"
+  >
+    <div>
+      <div
+        className="d-flex justify-content-between align-items-center header-one"
+        style={
+          Object {
+            "marginBottom": "12px",
+          }
+        }
+      >
+        <div
+          className="d-flex justify-content-start align-items-center"
+        >
+          <a
+            className="logo"
+            href="/"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            title="Logo"
+          >
+            <img
+              alt="ProductPlan Logo"
+              crossOrigin="anonymous"
+              height="14"
+              src="/static/images/logohack.png"
+              style={
+                Object {
+                  "marginRight": "20px",
+                }
+              }
+              width="120"
+            />
+          </a>
+          <div
+            style={
+              Object {
+                "color": "black",
+                "fontSize": "18px",
+                "marginLeft": "20px",
+              }
+            }
+          >
+            Candidate Roadmap
+          </div>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-search fa-w-16 "
+          data-icon="search"
+          data-prefix="fas"
+          role="img"
+          style={
+            Object {
+              "fontSize": "1.4em",
+            }
+          }
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+      <div>
+        <div
+          className="d-flex justify-content-between align-items-center bold-header header-two"
+          style={
+            Object {
+              "padding": "0 20px",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "color": "black",
+                "fontSize": "32px",
+                "marginLeft": "15px",
+              }
+            }
+          >
+            <span>
+              Undefined
+            </span>
+          </div>
+          <ul
+            className="ant-menu ant-menu-light ant-menu-root ant-menu-vertical"
+            onMouseEnter={[Function]}
+            onTransitionEnd={[Function]}
+            role="menu"
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "color": "#62666A",
+                "display": "inline-block",
+                "fontSize": "16px",
+                "lineHeight": "45px",
+                "marginBottom": "-25px",
+                "marginRight": "250px",
+              }
+            }
+          >
+            <li
+              className="ant-menu-item ant-menu-item-selected"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              role="menuitem"
+              style={Object {}}
+            >
+              <a
+                href="/"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                <span>
+                  Undefined
+                </span>
+              </a>
+            </li>
+            <li
+              className="ant-menu-item"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              role="menuitem"
+              style={Object {}}
+            >
+              <a
+                href="/planningBoard"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                <span>
+                  Undefined
+                </span>
+              </a>
+            </li>
+            <li
+              className="ant-menu-item"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              role="menuitem"
+              style={Object {}}
+            >
+              <a
+                href="/parkingLot"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+              >
+                <span>
+                  Undefined
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ant-layout-content"
+  >
+    <div
+      className="d-flex justify-content-between main-content-wrapper"
+    >
+      <div
+        className="timelines"
+      >
+        <div
+          className="d-flex justify-content-around"
+        >
+          <div
+            className="timeline-unit"
+          >
+            2018
+            <br />
+            <div
+              className="timeline-dot"
+            >
+              •
+            </div>
+          </div>
+          <div
+            className="timeline-unit"
+          >
+            
+            <br />
+            <div
+              className="timeline-dot"
+            >
+              •
+            </div>
+          </div>
+          <div
+            className="timeline-unit"
+          >
+            Q1 2019
+            <br />
+            <div
+              className="timeline-dot"
+            >
+              •
+            </div>
+          </div>
+          <div
+            className="timeline-unit"
+          >
+            
+            <br />
+            <div
+              className="timeline-dot"
+            >
+              •
+            </div>
+          </div>
+          <div
+            className="timeline-unit"
+          >
+            
+            <br />
+            <div
+              className="timeline-dot"
+            >
+              •
+            </div>
+          </div>
+          <div
+            className="timeline-unit"
+          >
+            Q2
+            <br />
+            <div
+              className="timeline-dot"
+            >
+              •
+            </div>
+          </div>
+          <div
+            className="timeline-unit"
+          >
+            
+            <br />
+            <div
+              className="timeline-dot"
+            >
+              •
+            </div>
+          </div>
+          <div
+            className="timeline-unit"
+          >
+            
+            <br />
+            <div
+              className="timeline-dot"
+            >
+              •
+            </div>
+          </div>
+          <div
+            className="timeline-unit"
+          >
+            Q3
+            <br />
+            <div
+              className="timeline-dot"
+            >
+              •
+            </div>
+          </div>
+          <div
+            className="timeline-unit"
+          >
+            
+            <br />
+            <div
+              className="timeline-dot"
+            >
+              •
+            </div>
+          </div>
+          <div
+            className="timeline-unit"
+          >
+            
+            <br />
+            <div
+              className="timeline-dot"
+            >
+              •
+            </div>
+          </div>
+          <div
+            className="timeline-unit"
+          >
+            Q4
+            <br />
+            <div
+              className="timeline-dot"
+            >
+              •
+            </div>
+          </div>
+        </div>
+        <div />
+      </div>
+      <div
+        className="dragging d-flex"
+      >
+        <ul
+          className="dragbuttons-list"
+        >
+          <li>
+            <div
+              onClick={[Function]}
+              onMouseDown={[Function]}
+              onTouchStart={[Function]}
+              style={
+                Object {
+                  "paddingLeft": "15px",
+                }
+              }
+            >
+              <div
+                draggable={true}
+                onDragStart={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "white",
+                    "borderRadius": "4px",
+                    "padding": "2px",
+                  }
+                }
+              >
+                <button
+                  className="ant-btn"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "#E4E6E8",
+                      "borderColor": "transparent",
+                      "color": "#73777B",
+                      "paddingLeft": "7px",
+                      "textAlign": "left",
+                      "width": "100%",
+                    }
+                  }
+                  type="button"
+                >
+                  <img
+                    src="/static/images/expand2.png"
+                    style={
+                      Object {
+                        "marginTop": "-2px",
+                        "paddingRight": "7px",
+                      }
+                    }
+                  />
+                  <span>
+                    Undefined
+                  </span>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li
+            style={
+              Object {
+                "height": "5px",
+              }
+            }
+          />
+          <li>
+            <div
+              onClick={[Function]}
+              onMouseDown={[Function]}
+              onTouchStart={[Function]}
+              style={
+                Object {
+                  "paddingLeft": "15px",
+                }
+              }
+            >
+              <div
+                draggable={true}
+                onDragStart={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "white",
+                    "borderRadius": "4px",
+                    "padding": "2px",
+                  }
+                }
+              >
+                <button
+                  className="ant-btn"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "#E4E6E8",
+                      "borderColor": "transparent",
+                      "color": "#73777B",
+                      "paddingLeft": "7px",
+                      "textAlign": "left",
+                      "width": "100%",
+                    }
+                  }
+                  type="button"
+                >
+                  <img
+                    src="/static/images/expand2.png"
+                    style={
+                      Object {
+                        "marginTop": "-2px",
+                        "paddingRight": "7px",
+                      }
+                    }
+                  />
+                  <span>
+                    Undefined
+                  </span>
+                </button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ant-layout-footer"
+  />
+</div>
+`;

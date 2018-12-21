@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('hinted-Gilroy-Medium.eot');
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url('hinted-Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('hinted-Gilroy-Medium.woff2') format('woff2'),
+        url('hinted-Gilroy-Medium.woff') format('woff'),
+        url('hinted-Gilroy-Medium.ttf') format('truetype'),
+        url('hinted-Gilroy-Medium.svg#Gilroy-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GilroyBold';
+    src: url('hinted-Gilroy-Bold.eot');
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('hinted-Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('hinted-Gilroy-Bold.woff2') format('woff2'),
+        url('hinted-Gilroy-Bold.woff') format('woff'),
+        url('hinted-Gilroy-Bold.ttf') format('truetype'),
+        url('hinted-Gilroy-Bold.svg#Gilroy-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

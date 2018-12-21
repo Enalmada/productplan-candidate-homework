@@ -1,0 +1,51 @@
+// General layout with ant design stuff
+
+@import "./antd-custom.less";
+@import "./bootstraphack.css";
+
+$BodyHeight = calc(100% - 127px);
+$FooderHeight = 0px
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+/* purgecss ignore */
+#__next {
+  height: $BodyHeight;
+}
+.ant-layout {
+  min-height: 100%;
+  height: $BodyHeight;
+}
+
+.ant-layout-content {
+  min-height: 100%;
+  height: $BodyHeight;
+}
+.ant-layout-footer {
+  padding: 0px;
+}
+
+@media (min-width: 700px) {
+
+  .ant-layout-content {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: - $FooderHeight;
+  }
+
+  .ant-layout-content:after {
+    content: "";
+    display: block;
+  }
+
+  .ant-layout-footer, .ant-layout-content:after {
+    height: $FooderHeight;
+  }
+
+}
+
+

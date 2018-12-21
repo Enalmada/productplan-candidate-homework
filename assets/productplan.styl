@@ -1,0 +1,220 @@
+// ProductPlan specific styles, generally needing global variables
+
+// Gilroy font file optimized for web through https://transfonter.org/
+// font-display: swap added for best practice
+// woff2 files preloaded as they are what modern browers are likely to use
+// font css file loaded using loadcss method
+// It would be better to use a google font for the way they keep them updated and high chance it is in browser cache
+// Better fallback would be the font stack that bootstrap 4 uses
+$fontStack = 'Gilroy', 'Open Sans', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
+$boldStack = 'GilroyBold', $fontStack
+$laneColor = #EF6031;
+html, body {
+    font-family: $fontStack
+    background-color: #f5f5f9 !important;
+    color: #495054;
+}
+
+.bold-header {
+    font-family: $boldStack;
+    color: #495054;
+}
+.ant-menu {
+    font-family: $fontStack;
+}
+.ant-popover {
+    font-family: $fontStack;
+}
+.ant-btn {
+    font-family: $fontStack;
+}
+
+.ant-layout-header {
+    background: white;
+}
+
+.ant-layout-header {
+    padding: 0;
+    height: initial;
+}
+
+$borderColor = #C1C4C7;
+.header-one {
+    border-bottom: 1px solid $borderColor;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header-two {
+    border-bottom: 1px solid $borderColor;
+}
+
+.logo {
+    border-right: 1px solid $borderColor;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+
+
+$greyColor= #E4E6E8;
+$menuBorderWidth = 4px;
+$menuUnderlineColor = #1973BA;
+$dotColor = #C1C4C7;
+
+.ant-layout-content {
+    background-color: $greyColor;
+}
+
+.ant-layout-header .ant-menu-item  {
+    border-bottom: $menuBorderWidth solid $greyColor;
+}
+.ant-layout-header .ant-menu-item.ant-menu-item-selected {
+    border-bottom: $menuBorderWidth solid $menuUnderlineColor;
+}
+.ant-layout-header .ant-menu-item:hover {
+    border-bottom: $menuBorderWidth solid $menuUnderlineColor;
+}
+
+
+// Main Layout
+.main-content-wrapper {
+    min-height: 100%;
+    height: 100%;
+}
+.timelines {
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    margin-left: 20px;
+
+}
+.timeline-unit {
+    width: 4.7vw;
+    margin-top: 12px
+}
+.timeline-dot {
+    color: $dotColor;
+}
+
+
+$roadmapLine = #E0E4E7;
+
+.timeline-line {
+    min-height: 100px;
+    height: 100%;
+    border-left: 1px solid $roadmapLine;
+}
+.bar-unit {
+    width: 4.7vw;
+    height: 100%;
+}
+
+.dragging {
+    background-color: white;
+    width: 250px
+    height: 100%
+    border-left: 1px solid $borderColor;
+}
+.dragbuttons-list {
+    list-style:none
+    width:100%
+    padding-Left:0px
+    padding-right:15px
+    padding-top:15px
+}
+
+
+.close {
+    float: right;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .6;
+    margin-top: -4px;
+    margin-right: -8px;
+}
+
+.ant-popover-title {
+    border-bottom: 1px solid transparent !important;
+}
+
+.dragging-popover.ant-popover {
+    font-size: 16px;
+}
+.dragging-popover .ant-popover-inner-content {
+    padding: 30px 30px;
+    padding-top: 0px;
+}
+
+.drop-here {
+    width: 93%;
+    margin: auto;
+    height: 125px;
+    background-color: #F9FAFA;
+    border: 2px dashed $borderColor;
+    font-family: $boldStack;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.show-lane {
+    margin-top: 20px;
+}
+.show-lane-top {
+    background-color: $laneColor;
+    color: white;
+    padding: 10px 0 10px 20px;
+}
+.show-lane-header {
+    margin-left: 7px;
+    font-size: 16px;
+}
+.show-lane-bottom {
+    background-color: white;
+    min-height 70px;
+}
+
+.popover-image {
+    margin-bottom: 20px;
+}
+.popover-header {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.popover-button-gotit {
+    text-align: right;
+    margin-top: 25px;
+}
+
+
+.show-lane-bottom {
+    position: relative;
+}
+.lines-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.lane-bar-wrapper {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.lane-bar {
+    width: 600px;
+    background-color: #1973BA;
+    height: 50px;
+    color: #fff;
+    z-index: 10;
+    padding: 13px;
+    border-radius: 4px;
+}
